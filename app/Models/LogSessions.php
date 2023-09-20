@@ -9,6 +9,5 @@ class LogSessions extends Model
 {
     use HasFactory;
 
-    protected $table = 'log_sessions';
     protected $fillable = ['id', 'user_id', 'ip'];
 }
